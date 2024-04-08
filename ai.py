@@ -1,3 +1,5 @@
+# Put the OpenAI API key in .env file
+
 from openai import OpenAI
 from openai.types.chat.chat_completion import ChatCompletion
 from dotenv import load_dotenv, find_dotenv
