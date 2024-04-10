@@ -34,6 +34,8 @@ def chat_completion(prompt: str) -> str:
         model="gpt-3.5-turbo-1106",
     )
 
+    print('response', response)
+
     return response.choices[0].message.content
 
 answer: str = chat_completion("What is 1+1?")
